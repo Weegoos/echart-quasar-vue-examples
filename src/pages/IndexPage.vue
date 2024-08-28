@@ -1,11 +1,13 @@
 <template>
   <div>
-    <p>Index Page</p>
+    <p>{{ name }}</p>
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { ref } from "vue";
+
+const name = ref("Batyr");
 </script>
 
 <style></style>
