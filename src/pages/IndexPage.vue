@@ -1,13 +1,9 @@
 <template>
-  <div>
-    <p>{{ name }}</p>
-  </div>
+  <div>Batyr</div>
 </template>
 
-<script setup>
-import { ref } from "vue";
-
-const name = ref("Batyr");
+<script>
+export default {};
 </script>
 
 <style></style>
